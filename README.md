@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔍 CodeLens — AI Code Review (Groq Edition)
 
 Powered by **Groq + LLaMA 3.3 70B** — completely free, no credit card needed.
@@ -73,3 +74,6 @@ Open **http://localhost:5173** 🎉
 | `GROQ_API_KEY not set` | Run `set GROQ_API_KEY=gsk_...` first |
 | `npm not found` | Install Node.js from https://nodejs.org |
 | Port already in use | Restart your terminal and try again |
+=======
+# CodeLens-AI
+>>>>>>> 26ff99ba0496d9e89c3ef4f3e29eb49b516b4d7b

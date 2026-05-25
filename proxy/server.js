@@ -3,7 +3,7 @@ const https = require('https');
 
 const PORT = 3001;
 const GROQ_HOST = 'api.groq.com';
-const API_KEY = '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';
+const API_KEY = 'gsk_xxxx';
 
 const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
   let body = '';
   req.on('data', chunk => body += chunk);
   req.on('end', () => {
-    const apiKey = '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';
+    const apiKey = 'gsk_xxx';
     if (!apiKey) {
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'GROQ_API_KEY not set. See README.' }));
