@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
   let body = '';
   req.on('data', chunk => body += chunk);
   req.on('end', () => {
-    const apiKey = 'gsk_xxx';
+    const API_KEY = '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';
     if (!apiKey) {
       res.writeHead(500, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'GROQ_API_KEY not set. See README.' }));
