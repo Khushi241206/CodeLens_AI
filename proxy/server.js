@@ -3,7 +3,7 @@ const https = require('https');
 
 const PORT = 3001;
 const GROQ_HOST = 'api.groq.com';
-const API_KEY = 'gsk_xxxx';
+const API_KEY = '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';
 
 const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
