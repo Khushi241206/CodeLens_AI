@@ -1,0 +1,9 @@
+{
+  "name": "codelens-proxy",
+  "version": "1.0.0",
+  "description": "Tiny CORS proxy for CodeLens → Anthropic API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
